@@ -1,22 +1,35 @@
 using Godot;
 using System;
 
-public Label _label;
 
 public partial class Slot_Scene : Control
 {
+
+	private RandomNumberGenerator rng;
+	private Label randomNumberLabel;
+
+
+
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
-		_Label = GetNode<Label>("Label");
-		//GD.Randi() % 50;
+		rng = new RandomNumberGenerator();
+        rng.Randomize();
+
+		randomNumberLabel.Text = "Random Number: ";
+
+        // Access the Label node by its uniqu name
+        randomNumberLabel = GetChild<Label>("RandomNumberLabel");
+
+        // Update the Label with the random number
+        //GenerateRandomNumberAndDisplay();
 	}
 
-	// Called every frame. 'delta' is the elapsed time since the previous frame.
-	public override void _Process(double delta)
-	{
-		if(Input.IsActionJustPressed("ui_accept")) {
-			Label(Text("12"));
-		}
+	private void GenerateRandomNumberAndDisplay()
+    {
+        int randomInt = rng.RandiRange(1, 100);
+
+        // Set the Label's text to the generated random number
+        randomNumberLabel.Text = "Random Number: " + randomInt;
 	}
 }
