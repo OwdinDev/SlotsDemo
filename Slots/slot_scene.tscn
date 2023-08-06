@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://b2idq3dtc7wxe"]
+[gd_scene load_steps=2 format=3 uid="uid://bq7ltxxsdhdqy"]
 
-[ext_resource type="Script" path="res://Slot_Scene.cs" id="1_bhaps"]
+[ext_resource type="Script" path="res://Code/Slot_Scene.cs" id="1_ogcjm"]
 
 [node name="Slot Scene" type="Control"]
 layout_mode = 3
@@ -9,7 +9,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_bhaps")
+script = ExtResource("1_ogcjm")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 1
@@ -20,7 +20,7 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.243137, 0, 0.980392, 1)
 
-[node name="Label" type="Label" parent="."]
+[node name="RandomNumberLabel" type="Label" parent="."]
 layout_mode = 0
 offset_left = 483.0
 offset_top = 225.0
