@@ -16,13 +16,11 @@ public partial class Slot_Scene : Control
 		rng = new RandomNumberGenerator();
         rng.Randomize();
 
-		randomNumberLabel.Text = "Random Number: ";
-
         // Access the Label node by its uniqu name
-        randomNumberLabel = GetChild<Label>("RandomNumberLabel");
+        randomNumberLabel = GetNode<Label>("RandomNumberLabel");
 
         // Update the Label with the random number
-        //GenerateRandomNumberAndDisplay();
+        GenerateRandomNumberAndDisplay();
 	}
 
 	private void GenerateRandomNumberAndDisplay()
