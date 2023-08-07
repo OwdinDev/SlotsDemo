@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mrbsh30khc67"
-path="res://.godot/imported/Total Bet Icon .png-b7350c6090a1bf2678d94c8a606a3e4b.ctex"
+path="res://.godot/imported/Total Bet Icon .png-55bcb2eb1b44440d5b73cdf7001ffc56.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Value Icons/Total Bet Icon .png"
-dest_files=["res://.godot/imported/Total Bet Icon .png-b7350c6090a1bf2678d94c8a606a3e4b.ctex"]
+source_file="res://Digital Assets/Value Icons/Total Bet Icon .png"
+dest_files=["res://.godot/imported/Total Bet Icon .png-55bcb2eb1b44440d5b73cdf7001ffc56.ctex"]
 
 [params]
 
