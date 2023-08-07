@@ -13,20 +13,20 @@ public partial class slot_Scene : Control
 	public override void _Ready()
 	{
 		rng = new RandomNumberGenerator();
-        rng.Randomize();
+		rng.Randomize();
 
-        // Access the Label node by its uniqu name
-        randomNumberLabel = GetNode<Label>("RandomNumberLabel");
+		// Access the Label node by its uniqu name
+		randomNumberLabel = GetNode<Label>("RandomNumberLabel");
 
-        // Update the Label with the random number
-        GenerateRandomNumberAndDisplay();
+		// Update the Label with the random number
+		GenerateRandomNumberAndDisplay();
 	}
 
 	private void GenerateRandomNumberAndDisplay()
-    {
-        int randomInt = rng.RandiRange(1, 100);
+	{
+		int randomInt = rng.RandiRange(1, 100);
 
-        // Set the Label's text to the generated random number
-        randomNumberLabel.Text = "Random Number: " + randomInt;
+		// Set the Label's text to the generated random number
+		randomNumberLabel.Text = "Random Number: " + randomInt;
 	}
 }

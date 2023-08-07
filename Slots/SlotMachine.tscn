@@ -4,13 +4,13 @@
 [ext_resource type="Texture2D" uid="uid://my1jly03lqpg" path="res://Digital Assets/Value Icons/Background.png" id="2_jyd83"]
 [ext_resource type="Texture2D" uid="uid://bsgd2i30s7d7c" path="res://Digital Assets/Gameplay board/Gameplay board.png" id="3_06n5f"]
 [ext_resource type="Texture2D" uid="uid://cvj36bmllymaq" path="res://Digital Assets/Button/Spin Button .png" id="4_70wpd"]
-[ext_resource type="FontFile" uid="uid://dug3r2g7j5v24" path="res://Fonts/Pixeboy-z8XGD.ttf" id="5_xihbd"]
+[ext_resource type="FontFile" uid="uid://bey5g0hv7kbg8" path="res://Fonts/Coco-Sharp-Heavy-trial.ttf" id="5_vl8n4"]
 [ext_resource type="Texture2D" uid="uid://71fevq2pfa8m" path="res://Digital Assets/Button/Other 2 Button .png" id="6_jkk7d"]
 [ext_resource type="Texture2D" uid="uid://bdphq2c7ox1f6" path="res://Digital Assets/Value Icons/Bet Icon .png" id="7_ex6ik"]
 [ext_resource type="Texture2D" uid="uid://mrbsh30khc67" path="res://Digital Assets/Value Icons/Total Bet Icon .png" id="8_88uhg"]
 
 [sub_resource type="FontVariation" id="FontVariation_55746"]
-base_font = ExtResource("5_xihbd")
+base_font = ExtResource("5_vl8n4")
 
 [node name="SlotMachine" type="Control"]
 layout_mode = 3
@@ -70,8 +70,8 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_fonts/font = SubResource("FontVariation_55746")
-theme_override_font_sizes/font_size = 64
-text = "Spin"
+theme_override_font_sizes/font_size = 50
+text = "SPIN"
 horizontal_alignment = 1
 vertical_alignment = 1
 
@@ -101,7 +101,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_fonts/font = SubResource("FontVariation_55746")
-theme_override_font_sizes/font_size = 32
+theme_override_font_sizes/font_size = 24
 text = "Auto
 Spin"
 horizontal_alignment = 1
@@ -133,7 +133,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_fonts/font = SubResource("FontVariation_55746")
-theme_override_font_sizes/font_size = 32
+theme_override_font_sizes/font_size = 24
 text = "Max
 Bet"
 horizontal_alignment = 1
@@ -157,8 +157,8 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 10.0
-offset_right = -7.0
+offset_left = 13.0
+offset_right = -4.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_fonts/font = SubResource("FontVariation_55746")
@@ -184,8 +184,8 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 10.0
-offset_right = -10.0
+offset_left = 11.0
+offset_right = -9.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_fonts/font = SubResource("FontVariation_55746")
@@ -211,8 +211,8 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 15.0
-offset_right = -21.0
+offset_left = 17.0
+offset_right = -19.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_fonts/font = SubResource("FontVariation_55746")
