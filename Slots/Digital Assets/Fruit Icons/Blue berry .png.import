@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crupwujjve1bj"
-path="res://.godot/imported/Blue berry .png-f2ff3d3492a33842370f08b163702e1c.ctex"
+path="res://.godot/imported/Blue berry .png-6066b580b357f854ed86c216cc20d073.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Fruit Icons/Blue berry .png"
-dest_files=["res://.godot/imported/Blue berry .png-f2ff3d3492a33842370f08b163702e1c.ctex"]
+source_file="res://Digital Assets/Fruit Icons/Blue berry .png"
+dest_files=["res://.godot/imported/Blue berry .png-6066b580b357f854ed86c216cc20d073.ctex"]
 
 [params]
 

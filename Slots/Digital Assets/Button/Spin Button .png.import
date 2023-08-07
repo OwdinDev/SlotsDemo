@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cvj36bmllymaq"
-path="res://.godot/imported/Spin Button .png-7066ac122907d40e99780456be030d49.ctex"
+path="res://.godot/imported/Spin Button .png-dedf554cddc7f60e3dea360fe703d789.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Button/Spin Button .png"
-dest_files=["res://.godot/imported/Spin Button .png-7066ac122907d40e99780456be030d49.ctex"]
+source_file="res://Digital Assets/Button/Spin Button .png"
+dest_files=["res://.godot/imported/Spin Button .png-dedf554cddc7f60e3dea360fe703d789.ctex"]
 
 [params]
 

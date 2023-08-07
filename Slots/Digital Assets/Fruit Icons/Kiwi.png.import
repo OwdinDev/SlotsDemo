@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8ptktbx1ix78"
-path="res://.godot/imported/Kiwi.png-04be674847a372d74922cb8dfc97f7fb.ctex"
+path="res://.godot/imported/Kiwi.png-d5e62918a86d81cf516230cc387ebd4b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Fruit Icons/Kiwi.png"
-dest_files=["res://.godot/imported/Kiwi.png-04be674847a372d74922cb8dfc97f7fb.ctex"]
+source_file="res://Digital Assets/Fruit Icons/Kiwi.png"
+dest_files=["res://.godot/imported/Kiwi.png-d5e62918a86d81cf516230cc387ebd4b.ctex"]
 
 [params]
 
